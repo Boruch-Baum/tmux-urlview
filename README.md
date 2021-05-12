@@ -2,9 +2,9 @@
 
 Quickly open any url on your terminal window!
 
-Plugin wrapper around either [urlview](https://github.com/sigpipe/urlview) or [extract_url](http://www.memoryhole.net/~kyle/extract_url/).
+This is a fork of [tmux-plugins/tmux-urlview](https://github.com/tmux-plugins/tmux-urlview). The original upstream version is a wrapper around either [urlview](https://github.com/sigpipe/urlview) or [extract_url](http://www.memoryhole.net/~kyle/extract_url/). This fork adds flexibility in the form of a configuration option to choose a default program called, and allows for calling that program with command-line parameters.
 
-### Demo
+### Demo (using urlview as the called program)
 
 [![Demo tmux-urlview](http://g.recordit.co/5Uh5W4oaPR.gif)](http://recordit.co/5Uh5W4oaPR)
 
@@ -12,6 +12,7 @@ Plugin wrapper around either [urlview](https://github.com/sigpipe/urlview) or [e
 
 *One* of the following is required.
 
+- A program of your choice
 - `urlview` - `brew install urlview` on OS X.
 - `extract_url` - `brew install extract_url` on OS X.
 
